@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="mainContent" prefHeight="650.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="transportationmanagementsystem.FXMLDocumentController">
+   <top>
+      <VBox alignment="CENTER" prefHeight="144.0" prefWidth="800.0" style="-fx-background-color: #090042;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="#fcfcfc" strokeType="OUTSIDE" strokeWidth="0.0" text="Transport Management System">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="506.0" fitWidth="900.0">
+               <image>
+                  <Image url="@image/Background.jpg" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="276.0" layoutY="118.0" opacity="0.68" prefHeight="348.0" prefWidth="348.0" style="-fx-background-color: #ffffff;">
+               <children>
+                  <Text layoutX="94.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Login Panel">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="45.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username :">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="47.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password :">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Text>
+                 
+                  <Button layoutX="131.0" layoutY="242.0" mnemonicParsing="false" onAction="#loginButtonAction" prefHeight="32.0" prefWidth="73.0" style="-fx-background-color: blue;" text="Login" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Button>
+                  <Button layoutX="234.0" layoutY="242.0" mnemonicParsing="false" onAction="#resetButtonAction" prefHeight="32.0" prefWidth="73.0" style="-fx-background-color: blue;" text="Reset" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Button>
+                  <PasswordField fx:id="password" layoutX="135.0" layoutY="150.0" prefHeight="31.0" prefWidth="172.0" promptText="password..." />
+                  <TextField fx:id="username" layoutX="137.0" layoutY="93.0" prefHeight="30.0" prefWidth="170.0" promptText="username...">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets></TextField>
+                  <CheckBox layoutX="136.0" layoutY="198.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="136.0" text="Remember me">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </CheckBox>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

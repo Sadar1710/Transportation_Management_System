@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="730.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="transportationmanagementsystem.StudentviewBusController">
+   <children>
+      <TableView fx:id="busListTable" layoutX="14.0" layoutY="14.0" prefHeight="419.0" prefWidth="690.0">
+         <columns>
+            <TableColumn fx:id="idCloumn" prefWidth="113.0" text="ID" />
+            <TableColumn fx:id="busNameCloumn" prefWidth="112.0" text="BUS_NAME" />
+            <TableColumn fx:id="modelColumn" prefWidth="127.0" text="MODEL" />
+            <TableColumn fx:id="capacityColumn" prefWidth="139.0" text="CAPACITY" />
+            <TableColumn fx:id="insuranceStatusColumn" prefWidth="198.0" text="INSURANCE_STATUS" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

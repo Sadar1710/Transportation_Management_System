@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="730.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Text layoutX="290.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Attention" underline="true">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="56.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id pharetra odio. Integer semper pretium urna, ac elementum ante ullamcorper eu. Fusce luctus mattis ipsum. Nam et lacus eu quam dapibus sodales. Sed pellentesque, elit vitae mattis euismod, erat justo finibus lorem, quis venenatis risus orci ut massa. Vivamus vulputate ac diam ut dapibus. Aenean vulputate mattis magna sit amet interdum. Donec nunc mauris, scelerisque auctor semper a, laoreet sit amet elit. Nunc varius enim massa, vitae fermentum ligula semper nec. Donec tincidunt nunc non nunc fermentum, et tempus est viverra. Donec eleifend tempus neque nec facilisis. Pellentesque laoreet sapien sit amet aliquam sollicitudin. Etiam ullamcorper feugiat turpis. Duis sit amet mollis sem, vel euismod metus." textAlignment="JUSTIFY" wrappingWidth="618.13671875">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
